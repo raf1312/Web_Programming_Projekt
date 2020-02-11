@@ -7,7 +7,7 @@ const Ingredient_check = (props) => {
         <div>
             <FormControlLabel
                 control={
-                    <Checkbox color="primary" value={props.ingredient}/>
+                    <Checkbox color="primary" checked={props.index} onChange={() => props.onChange(props.ingredient, props.index)}/>
                 }
                 label={props.ingredient}
             />

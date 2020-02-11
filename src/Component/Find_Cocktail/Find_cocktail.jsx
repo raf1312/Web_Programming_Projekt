@@ -16,8 +16,11 @@ class Find_cocktail extends Component {
 
     };
 
-    changeChecked = () => {
-        this.setState(this.state.Ingredients)
+    changeChecked = (key, value) => {
+        let temp = this.state;
+        temp.Ingredients[key] = !temp.Ingredients[key];
+        this.setState({ temp}
+        )
     };
 
     test = () => {
@@ -30,7 +33,7 @@ class Find_cocktail extends Component {
                 <h1>RubbeldieKatz</h1>
                 {
                     Object.keys(this.state.Ingredients).map(function (key, index) {
-                        return <Ingredient_check ingredient={key} />
+                        return <Ingredient_check ingredient={key} onChange={this.changeChecked} checked={index} key={key}/>
                     }, this)
                 }
                 <FormControlLabel
