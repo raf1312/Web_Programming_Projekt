@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f547ad2-904f-4358-854e-edf106066275" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/Find_Cocktail/Find_cocktail.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/Cocktail_List/Cocktail_list.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Cocktail_List/Cocktail_list.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/Find_Cocktail/Find_cocktail.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Find_Cocktail/Find_cocktail.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/Ingredient_Check/Ingredient_check.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Ingredient_Check/Ingredient_check.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/Recipe/Recipe.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Recipe/Recipe.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,12 +29,16 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -62,11 +65,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579869268655</updated>
-      <workItem from="1579869270231" duration="1090000" />
+      <workItem from="1579869270231" duration="9518000" />
+      <workItem from="1580471732370" duration="767000" />
+      <workItem from="1581416851945" duration="11000" />
+      <workItem from="1581417917132" duration="4149000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="631" y="358" width="658" height="397" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579872154272">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="631" y="358" width="658" height="397" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1579872154272" />
   </component>
 </project>
