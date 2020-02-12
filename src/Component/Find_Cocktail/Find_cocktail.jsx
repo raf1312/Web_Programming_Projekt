@@ -16,6 +16,7 @@ class Find_cocktail extends Component {
 
     };
 
+    // Switch ingredients checked value
     changeChecked = (key, value) => {
         let temp = this.state;
         temp.Ingredients[key] = !temp.Ingredients[key];
@@ -23,9 +24,6 @@ class Find_cocktail extends Component {
         )
     };
 
-    test = () => {
-        console.log("TEST")
-    };
 
     render() {
         return (
@@ -46,7 +44,7 @@ class Find_cocktail extends Component {
                     <Link to={{
                         pathname: '/Cocktail_list',
                         state: {
-                            Checked: this.state.Checked
+                            Ingredients: this.state.Ingredients
                         }
                     }}
                     >Show Cocktails</Link>

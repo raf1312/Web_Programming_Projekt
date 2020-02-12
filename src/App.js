@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import {BrowserRouter, Route, Redirect, Switch} from 'react-router-dom';
 import Find_cocktail from "./Component/Find_Cocktail/Find_cocktail"
