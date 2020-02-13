@@ -1,16 +1,30 @@
 import React, {Component} from "react"
 import Button from "@material-ui/core/Button";
 import "./Recipe.css"
+import {Link} from "react-router-dom";
 
 class Recipe extends Component {
 
-
+    missing = (einkaufen) => {
+        if (einkaufen.length > 0) {
+            return (
+                <div className="MissingIngredients">
+                    <h2>Ingredients to buy</h2>
+                    {
+                        Object.keys(einkaufen).map(function (key, index) {
+                            return <p key={key}>{einkaufen[index]}</p>
+                        }, this)
+                    }
+                </div>
+            )
+        }
+    };
 
     render() {
 
         const props = this.props.location.state;
-        const gesamt =  props.cocktails[props.name][0];
-        const vorhanden  = props.state[props.name];
+        const gesamt = props.cocktails[props.name][0];
+        const vorhanden = props.state[props.name];
         const einkaufen = props.cocktails[props.name][0].filter(x => !props.state[props.name].includes(x));
 
         return (
@@ -24,18 +38,11 @@ class Recipe extends Component {
                         <h2>Ingredients you need</h2>
                         {
                             Object.keys(gesamt).map(function (key, index) {
-                                return <p>{gesamt[key]}</p>
+                                return <p key={key}>{gesamt[key]}</p>
                             }, this)
                         }
                     </div>
-                    <div className="MissingIngredients">
-                        <h2>Ingredients to buy</h2>
-                        {
-                            Object.keys(einkaufen).map(function (key, index) {
-                                return <p>{einkaufen[index]}</p>
-                            }, this)
-                        }
-                    </div>
+                    {this.missing(einkaufen)}
                     <div className="Preparation">
                         <h2>preparation steps</h2>
                         <p>{props.cocktails[props.name][1]}</p>
@@ -44,9 +51,15 @@ class Recipe extends Component {
 
 
                 <div className="BackButtonContainer">
-                <Button variant="contained" color="primary" onClick={() => this.props.history.goBack()}>
-                    Back
-                </Button>
+                    <Button className="Button" variant="contained" color="primary" onClick={() => this.props.history.goBack()}>
+                        Back
+                    </Button>
+                    <Link to={{pathname: '/'}}><Button className="Button" variant="contained" color="primary">Back Home</Button></Link>
+                </div>
+
+                <div className="BackButtonContainer">
+
+
                 </div>
             </div>
         )

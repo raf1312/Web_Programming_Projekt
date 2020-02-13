@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f547ad2-904f-4358-854e-edf106066275" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Component/Cocktail_List_Element/CocktailListElement.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/Recipe/Recipe.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Component/Cocktail_List/CocktailList.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Cocktail_List/CocktailList.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Component/Cocktail_List/Cocktail_list.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Cocktail_List/Cocktail_list.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Component/Cocktail_List_Element/CocktailListElement.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Cocktail_List_Element/CocktailListElement.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Component/Find_Cocktail/FindCocktail.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Find_Cocktail/FindCocktail.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Component/Find_Cocktail/Find_cocktail.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Find_Cocktail/Find_cocktail.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/Recipe/Recipe.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Recipe/Recipe.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Component/Recipe/Recipe.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Recipe/Recipe.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,13 +23,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1WqFYrcknnMaE0OQKtDotrdDAnL" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -93,12 +89,15 @@
       <workItem from="1579869270231" duration="9518000" />
       <workItem from="1580471732370" duration="767000" />
       <workItem from="1581416851945" duration="11000" />
-      <workItem from="1581417917132" duration="34244000" />
+      <workItem from="1581417917132" duration="35329000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="631" y="358" width="658" height="397" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579872154272">

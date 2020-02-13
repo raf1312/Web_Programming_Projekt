@@ -20,3 +20,7 @@ body {
   background-size: cover;
 
 }
+
+html {
+  overflow-y: scroll;
+}
