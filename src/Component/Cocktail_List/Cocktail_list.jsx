@@ -1,5 +1,6 @@
 import React, {Component} from "react"
 import CocktailListElement from "../Cocktail_List_Element/CocktailListElement";
+import Button from "@material-ui/core/Button";
 
 class Cocktail_list extends Component {
     state = {};
@@ -39,7 +40,7 @@ class Cocktail_list extends Component {
 
 
     showWarning = () => {
-        console.log(this.trigger)
+        console.log(this.trigger);
         if (this.trigger){
             return "Nothing to show! Please choose to shop or select more ingredients"
         }
@@ -72,6 +73,9 @@ class Cocktail_list extends Component {
                     }, this)
                 }
                 <p>{this.showWarning()}</p>
+                <Button variant="contained" color="primary" onClick={() => this.props.history.goBack()}>
+                    Back
+                </Button>
             </div>
         )
     }

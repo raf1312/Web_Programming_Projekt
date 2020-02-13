@@ -2,16 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f547ad2-904f-4358-854e-edf106066275" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Component/Find_Cocktail/FindCocktail.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Component/Cocktail_List/Cocktail_list.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Cocktail_List/Cocktail_list.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Component/Cocktail_List_Element/CocktailListElement.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Cocktail_List_Element/CocktailListElement.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Component/Find_Cocktail/Find_cocktail.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Find_Cocktail/Find_cocktail.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Component/Recipe/Recipe.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Recipe/Recipe.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -27,6 +33,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -79,7 +86,7 @@
       <workItem from="1579869270231" duration="9518000" />
       <workItem from="1580471732370" duration="767000" />
       <workItem from="1581416851945" duration="11000" />
-      <workItem from="1581417917132" duration="20114000" />
+      <workItem from="1581417917132" duration="23944000" />
     </task>
     <servers />
   </component>
