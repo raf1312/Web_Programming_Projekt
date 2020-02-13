@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f547ad2-904f-4358-854e-edf106066275" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Component/Find_Cocktail/FindCocktail.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Component/Cocktail_List/Cocktail_list.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Cocktail_List/Cocktail_list.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Component/Recipe/Recipe.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Recipe/Recipe.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/Find_Cocktail/FindCocktail.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Find_Cocktail/FindCocktail.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/Find_Cocktail/Find_cocktail.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Find_Cocktail/Find_cocktail.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +89,7 @@
       <workItem from="1579869270231" duration="9518000" />
       <workItem from="1580471732370" duration="767000" />
       <workItem from="1581416851945" duration="11000" />
-      <workItem from="1581417917132" duration="23944000" />
+      <workItem from="1581417917132" duration="25285000" />
     </task>
     <servers />
   </component>

@@ -50,7 +50,7 @@ class Cocktail_list extends Component {
     render() {
 
         return (
-            <div>
+            <div className="CocktailList">
                 <h1>Cocktail List</h1>
                 {
                     Object.keys(this.cocktails).map(function (key, index) {

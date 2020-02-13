@@ -4,6 +4,7 @@ import Checkbox from '@material-ui/core/Checkbox';
 import FormControlLabel from "@material-ui/core/FormControlLabel";
 import Button from "@material-ui/core/Button";
 import {Link} from 'react-router-dom';
+import "./FindCocktail.css"
 
 
 class Find_cocktail extends Component {
@@ -47,29 +48,42 @@ class Find_cocktail extends Component {
 
     render() {
         return (
-            <div>
+            <div className="FindCocktail">
                 <h1>Find Cocktail</h1>
+                <div className="List">
+                    <h3>Select Ingredients</h3>
                 {
                     Object.keys(this.state.Ingredients).map(function (key, index) {
                         return <Ingredient_check ingredient={key} onChange={this.changeChecked} checked={index} key={key}/>
                     }, this)
                 }
+                </div>
+
+                <div className="Shopping">
+                    <h3>Select if you would go shopping</h3>
                 <FormControlLabel
                     control={
                         <Checkbox color="primary" value="shopping" checked={this.state.shopping.shopping} onChange={this.handleChange}/>
                     }
                     label="Show only recipes whose ingredients are in stock."
                 />
-                <Button variant="contained" color="primary">
-                    <Link to={{
-                        pathname: '/Cocktail_list',
-                        state: {
-                            Ingredients: this.state.Ingredients,
-                            shopping: this.state.shopping.shopping
-                        }
-                    }}
-                    >Show Cocktails</Link>
-                </Button>
+
+                    <div className="ButtonContainer">
+
+                        <Button variant="contained" color="primary">
+                            <Link to={{
+                                pathname: '/Cocktail_list',
+                                state: {
+                                    Ingredients: this.state.Ingredients,
+                                    shopping: this.state.shopping.shopping
+                                }
+                            }}
+                            >Show Cocktails</Link>
+                        </Button>
+                    </div>
+                </div>
+
+
             </div>
         )
     }
