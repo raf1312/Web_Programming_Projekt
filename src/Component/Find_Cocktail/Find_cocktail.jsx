@@ -48,7 +48,7 @@ class Find_cocktail extends Component {
 
     render() {
         return (
-            <div className="FindCocktail">
+            <div className="Frame">
                 <h1>Find Cocktail</h1>
                 <div className="List">
                     <h3>Select Ingredients</h3>
@@ -70,7 +70,7 @@ class Find_cocktail extends Component {
 
                     <div className="ButtonContainer">
 
-                        <Button variant="contained" color="primary">
+
                             <Link to={{
                                 pathname: '/Cocktail_list',
                                 state: {
@@ -78,8 +78,8 @@ class Find_cocktail extends Component {
                                     shopping: this.state.shopping.shopping
                                 }
                             }}
-                            >Show Cocktails</Link>
-                        </Button>
+                            ><Button className="Button" variant="contained" color="primary">Show Cocktails </Button></Link>
+
                     </div>
                 </div>
 
