@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4f547ad2-904f-4358-854e-edf106066275" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Component/Cocktail_List/Cocktail_list.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Cocktail_List/Cocktail_list.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Component/Find_Cocktail/Find_cocktail.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Find_Cocktail/Find_cocktail.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Component/Ingredient_Check/Ingredient_check.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Ingredient_Check/Ingredient_check.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Paper_Prototype.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Paper_Prototype.pdf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +94,7 @@
       <workItem from="1580471732370" duration="767000" />
       <workItem from="1581416851945" duration="11000" />
       <workItem from="1581417917132" duration="35678000" />
-      <workItem from="1583066732028" duration="2769000" />
+      <workItem from="1583066732028" duration="3801000" />
     </task>
     <servers />
   </component>
