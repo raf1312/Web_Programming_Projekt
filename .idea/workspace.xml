@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f547ad2-904f-4358-854e-edf106066275" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.~lock.Requirements.odt#" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Klassendiagramm.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Paper_Prototype.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Requirements.odt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Component/Recipe/Recipe.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Recipe/Recipe.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Component/Recipe/Recipe.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Recipe/Recipe.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/Find_Cocktail/Find_cocktail.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Find_Cocktail/Find_cocktail.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +38,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -48,6 +51,11 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -89,7 +97,8 @@
       <workItem from="1579869270231" duration="9518000" />
       <workItem from="1580471732370" duration="767000" />
       <workItem from="1581416851945" duration="11000" />
-      <workItem from="1581417917132" duration="35329000" />
+      <workItem from="1581417917132" duration="35678000" />
+      <workItem from="1583066732028" duration="1756000" />
     </task>
     <servers />
   </component>
