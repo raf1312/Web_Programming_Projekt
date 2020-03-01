@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f547ad2-904f-4358-854e-edf106066275" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.~lock.Requirements.odt#" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Klassendiagramm.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Paper_Prototype.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Requirements.odt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/Cocktail_List/Cocktail_list.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Cocktail_List/Cocktail_list.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Component/Find_Cocktail/Find_cocktail.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Find_Cocktail/Find_cocktail.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/Ingredient_Check/Ingredient_check.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Ingredient_Check/Ingredient_check.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +96,7 @@
       <workItem from="1580471732370" duration="767000" />
       <workItem from="1581416851945" duration="11000" />
       <workItem from="1581417917132" duration="35678000" />
-      <workItem from="1583066732028" duration="1756000" />
+      <workItem from="1583066732028" duration="2769000" />
     </task>
     <servers />
   </component>
@@ -113,6 +111,22 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="631" y="358" width="658" height="397" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1579872154272" />
+    <state width="1897" height="283" key="GridCell.Tab.0.bottom" timestamp="1583069692016">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1897" height="283" key="GridCell.Tab.0.bottom/1920.1080.1920.1080/3840.0.1920.1080/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1583069692016" />
+    <state width="1897" height="283" key="GridCell.Tab.0.center" timestamp="1583069692016">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1897" height="283" key="GridCell.Tab.0.center/1920.1080.1920.1080/3840.0.1920.1080/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1583069692016" />
+    <state width="1897" height="283" key="GridCell.Tab.0.left" timestamp="1583069692016">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1897" height="283" key="GridCell.Tab.0.left/1920.1080.1920.1080/3840.0.1920.1080/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1583069692016" />
+    <state width="1897" height="283" key="GridCell.Tab.0.right" timestamp="1583069692016">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1897" height="283" key="GridCell.Tab.0.right/1920.1080.1920.1080/3840.0.1920.1080/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1583069692016" />
     <state x="2543" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1581510639842">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>

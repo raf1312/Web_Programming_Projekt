@@ -1,8 +1,13 @@
+//imports
 import React from "react";
 import {Link} from "react-router-dom";
 import "./CocktailListElement.css"
 
+
+// Functional Component CocktailListElement
 const CocktailListElement = (props) => {
+
+    // Function to Calculate the percentage of ingredients in stock for given Cocktail
     const calculatePercentage = (props) => {
         if (props.state[props.name]) {
             let percentage = (props.state[props.name].length / props.cocktails[props.name][0].length) * 100;
